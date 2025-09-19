@@ -187,9 +187,8 @@ body {
 }
 
 #about p {
-  padding: 15px 10px;
+  padding: 0 5px;
   text-align: left;
-  margin: 20px 20px;
 }
 
 .about-image {
@@ -201,7 +200,7 @@ body {
 .aboutus {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 20px 10px;
 }
 
 .p {
@@ -233,6 +232,7 @@ body {
   border-radius: 5px;
   font-weight: bold;
   transition: background-color 0.3s;
+  margin-left: 30px;
 }
 
 .tabs {
@@ -274,10 +274,13 @@ body {
 }
 
 .profile {
-  flex: 1;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  margin: 30px;
   gap: 20px;
+}
+
+.profile:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .profile div {
@@ -427,33 +430,33 @@ body {
   margin-top: 3px;
 }
 
-.forms{
+.forms {
   justify-self: center;
   margin-top: 70px;
   margin-bottom: 20px;
   padding: 10px 10px;
- background-color: black;
- color: white;
- border-radius: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
 }
 
-.forms h2{
+.forms h2 {
   text-align: center;
 }
 
-.form-group{
+.form-group {
   padding: 5px;
 }
 
-.form-btn{
- margin-left: 40px;
- background-color: white;
- color: black;
- border-radius: 5px;
- padding: 5px 5px;
+.form-btn {
+  margin-left: 40px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 5px 5px;
 }
 
-.form-btn:hover{
+.form-btn:hover {
   color: white;
   background-color: #00b894;
 }
@@ -579,7 +582,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    padding: 10px;
+    padding: 5px;
   }
 
   .nav {
@@ -631,8 +634,8 @@ body {
 
   .aboutus-text {
     flex: 1;
-    margin: 20px 10px;
-    padding: 20px;
+    margin: 5px 0;
+    padding: 5px;
     border-radius: 20px;
     text-align: center;
   }
@@ -640,10 +643,6 @@ body {
   .about-image {
     flex: 1;
     height: auto;
-  }
-
-  .edu {
-    align-content: center;
   }
 
   .about-image img {
@@ -676,7 +675,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    padding: 15px;
+    padding: 0;
   }
 
   .nav {
@@ -710,10 +709,6 @@ body {
     gap: 20px;
   }
 
-  .edu {
-    align-content: center;
-  }
-
   .gallery-intro {
     grid-template-columns: 1fr 1fr;
     padding: 20px;
@@ -736,7 +731,7 @@ body {
   .topmost {
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px;
+    padding: 0;
   }
 
   .nav {
@@ -770,9 +765,6 @@ body {
     flex-direction: row;
     gap: 30px;
   }
-  .edu {
-    align-content: center;
-  }
 
   .gallery-intro {
     grid-template-columns: 1fr 1fr;
@@ -793,7 +785,7 @@ body {
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .topmost {
-    padding: 25px 30px;
+    padding: 0;
   }
 
   .hero-wrapper {
@@ -851,7 +843,7 @@ body {
 
 @media (min-width: 1400px) {
   .topmost {
-    padding: 40px 80px;
+    padding: 0;
   }
 
   .hero-wrapper {
