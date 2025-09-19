@@ -427,6 +427,37 @@ body {
   margin-top: 3px;
 }
 
+.forms{
+  justify-self: center;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+ background-color: black;
+ color: white;
+ border-radius: 20px;
+}
+
+.forms h2{
+  text-align: center;
+}
+
+.form-group{
+  padding: 5px;
+}
+
+.form-btn{
+ margin-left: 40px;
+ background-color: white;
+ color: black;
+ border-radius: 5px;
+ padding: 5px 5px;
+}
+
+.form-btn:hover{
+  color: white;
+  background-color: #00b894;
+}
+
 #footer {
   background-color: whitesmoke;
   color: #333;
