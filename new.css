@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 10px 0;
-  width: 100%;
+  width: 100%;;
 }
 
 .top-contact a {
@@ -42,7 +42,6 @@ body {
 }
 
 .nav {
-  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -110,11 +109,11 @@ body {
 .btn {
   text-decoration: none;
   color: turquoise;
+  background: #010706;
 }
 
 .hero-text {
   min-width: 700px;
-  /* margin-left: 100px; */
 }
 
 .hero-section h1 {
@@ -142,7 +141,7 @@ body {
 
 .hero-section a {
   display: inline-block;
-  background: #010706;
+  /* background: #010706; */
   color: white;
   padding: 10px 18px;
   border-radius: 10px;
@@ -219,7 +218,7 @@ body {
 .aboutus-text p {
   font-size: 1.1rem;
   line-height: 1.6;
-  color: #333;
+  color: white;
   margin: 0;
 }
 
@@ -273,8 +272,8 @@ body {
 }
 
 .profile {
-  margin: 30px;
   gap: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .profile:hover {
@@ -287,7 +286,6 @@ body {
   padding: 0 10px;
   border-radius: 8px;
   text-align: center;
-  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .profile p {
@@ -322,7 +320,7 @@ body {
 
 .service-container article {
   background-color: rgb(0, 3, 10);
-  color: #333;
+  color: white;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -472,8 +470,8 @@ body {
 }
 
 #footer {
-  background-color: whitesmoke;
-  color: #333;
+  background-color: black ;
+  color: whitesmoke;
   padding: 50px 50px;
   font-family: "lato";
 }
@@ -507,7 +505,7 @@ body {
 
 #footer a {
   text-decoration: none;
-  color: #333;
+  color: white;
   align-self: flex-start;
 }
 
@@ -602,10 +600,14 @@ body {
   }
 
   .nav-links ul {
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: row;
+    gap: 5px;
     margin-top: 10px;
     padding-right: 20px;
+  }
+
+  .nav-links a{
+    padding: 0 0;
   }
 
   .hero-wrapper {
